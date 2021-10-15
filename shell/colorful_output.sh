@@ -13,7 +13,7 @@ NC='\033[0m'
 printf "${RED}[ERROR]${NC} Action couldn't be completed\n"
 printf "${GREEN}[SUCCESS] ${NC}Action completed\n"
 
-# Coloured output won't work with echo
+# Coloured output won't work with plain echo
 echo -e "I ${RED}love${NC} Stack Overflow"
 
 
